@@ -1,0 +1,97 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav {
+  margin-left: auto;
+}
+
+.list {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recruiters {
+  padding: 14px 20px;
+  background-color: initial;
+  cursor: pointer;
+  border: 0px;
+  font-family: 'inter';
+}
+
+.login {
+  padding: 14px 43px;
+  background-color: initial;
+  cursor: pointer;
+  border: 1px solid #e5defd;
+  font-family: 'inter';
+}
+
+.signup {
+  padding: 14px 49.5px;
+  background-color: #3d1edd;
+  cursor: pointer;
+  border: 1px solid #3d1edd;
+  color: #ffffff;
+  font-family: 'inter';
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  color: #000000;
+  text-decoration: none;
+  font-family: 'inter';
+}
+.header {
+    display: flex;
+    align-items: center;
+    padding: 25px 120px;
+}
+.header__nav{
+    box-sizing: border-box;
+    margin-left: auto;
+}
+.header__list{
+    list-style: none;
+    display: flex;
+    column-gap: 16px;
+    padding-left: 0;
+    margin-left: auto;
+}
+.header__recruiters{
+    padding: 14px 20px;
+    background-color: initial;
+    cursor: pointer;
+    border: 0px;
+}
+.header__login{
+    padding: 14px 43px;
+    background-color: initial;
+    cursor: pointer;
+    border: 1px solid #e5defd; 
+}
+.header__signup{
+    padding: 14px 49.5px;
+    background-color: #3d1edd;
+    cursor: pointer;
+    border: 1px solid #3d1edd; 
+    color: #ffffff;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  color: #000000;
+  text-decoration: none;
+}
