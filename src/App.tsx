@@ -1,35 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import Layout from './components/layout/Layout';
+import PromoSection from './components/sections/PromoSection';
+import CaptionSection from './components/sections/CaptionSection';
+import AboutSection from './components/sections/AboutSection';
+import FeaturesSection from './components/sections/FeaturesSection';
+import CTASection from './components/sections/CTASection';
+// import Modal from './components/ui/Modal';
+import Preloader from './components/ui/Preloader';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App: React.FC = () => {
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Preloader />
+      <Layout>
+        <PromoSection />
+        <CaptionSection />
+        <AboutSection />
+        <FeaturesSection />
+        <CTASection />
+      </Layout>
+      {/* <Modal /> */}
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

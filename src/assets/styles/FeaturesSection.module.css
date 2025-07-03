@@ -1,12 +1,10 @@
 .section__features{
-    font-family: 'inter';
     display: flex;
     margin: 80px;
     width: 1200px;
     height: 400px;
 }
 .features__content{
-    font-family: 'inter';
     display: flex;
 }
 .features__wrap{

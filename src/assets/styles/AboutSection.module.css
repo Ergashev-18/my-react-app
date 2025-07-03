@@ -1,5 +1,4 @@
 .section__about {
-    font-family: 'inter';
     padding: 5px 120px;
 }
 .about__list {
@@ -69,7 +68,6 @@
 }
 
 .about__registertext {
-    font-weight: 700;
     margin-left: auto;
     margin-top: auto;
     display: inline-flex;

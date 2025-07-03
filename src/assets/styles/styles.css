@@ -6,4 +6,20 @@
 @import "CTASection.module.css";
 @import"Footer.module.css";
 @import"Slider.css";
-/*@import"fonts.css"; */
+@import"normalize.css";
+@import"body.css";
+@import"fonts.css";
+
+@import"Preloader.css";
+
+body {
+  margin: 0;
+  background-color: #f5f5f5; 
+  position: relative;
+  background-color: white;
+  max-width: 1440px;
+  min-height: 100vh; 
+  margin: 0 auto;
+  padding: 0 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05); /* Лёгкая тень для визуального разделения */
+}

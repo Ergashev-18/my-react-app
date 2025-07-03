@@ -1,6 +1,7 @@
+import React from 'react';
 import { useEffect, useState } from 'react'
 
-const Slider = () => {
+const Slider: React.FC = () => {
   const images = ['/images/grup.png', '/images/foto-2.png', '/images/foto1.png']
   const [index, setIndex] = useState(0)
 
@@ -13,7 +14,7 @@ const Slider = () => {
   }, [])
 
   return (
-    <div className="background__slider" id="autoSlider">
+    <div className="slider" id="autoSlider">
       <div
         className="slider-inner"
         style={{ backgroundImage: `url('${images[index]}')` }}
