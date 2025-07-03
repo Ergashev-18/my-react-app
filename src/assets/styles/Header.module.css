@@ -6,51 +6,11 @@
   max-width: 1200px;
   margin: 0 auto;
 }
-
-.nav {
-  margin-left: auto;
-}
-
-.list {
-  display: flex;
-  gap: 15px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.recruiters {
-  padding: 14px 20px;
-  background-color: initial;
-  cursor: pointer;
-  border: 0px;
-  font-family: 'inter';
-}
-
-.login {
-  padding: 14px 43px;
-  background-color: initial;
-  cursor: pointer;
-  border: 1px solid #e5defd;
-  font-family: 'inter';
-}
-
-.signup {
-  padding: 14px 49.5px;
-  background-color: #3d1edd;
-  cursor: pointer;
-  border: 1px solid #3d1edd;
-  color: #ffffff;
-  font-family: 'inter';
-}
-
-.logo {
+.header__logo {
   font-size: 24px;
   font-weight: 700;
   line-height: 28.8px;
   color: #000000;
-  text-decoration: none;
-  font-family: 'inter';
 }
 .header {
     display: flex;
@@ -86,12 +46,4 @@
     cursor: pointer;
     border: 1px solid #3d1edd; 
     color: #ffffff;
-}
-
-.logo {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 28.8px;
-  color: #000000;
-  text-decoration: none;
 }

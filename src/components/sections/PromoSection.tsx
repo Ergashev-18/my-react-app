@@ -6,16 +6,16 @@ const PromoSection: React.FC = () => {
     <section className="section promo" id="promo">
       <div className="promo__content">
         <h2 className="promo__title section__title">
-          Candidates with Creative & <br />Engineering Backgrounds
+          Кандидаты с творческим и  <br />инженерным образованием
         </h2>
         <p className="promo__description">
-          This is the place to show yourself and land entry level jobs at
-          cutting-edge companies. Launch <br />your career here.
+          Это место, где можно проявить себя и получить работу начального уровня в передовых компаниях. Начните <br />
+          свою карьеру здесь.
         </p>
         <div className="promo__buttons">
-          <button className="promo__button">Join Now</button>
+          <button className="promo__button">Присоединяйтесь сейчас</button>
           <p className="promo__button__text">
-            Looking for candidate's? <a className="promo__content__text" >Hire now</a>
+            Ищете кандидатов? <a className="promo__content__text" >Наймите сейчас</a>
           </p>
         </div>
       </div>

@@ -1,8 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import './assets/styles/normalize.css'; // Импорт normalize.css
-import './assets/styles/styles.css';     // Основные глобальные стили
+import './assets/styles/normalize.css'; 
+import './assets/styles/styles.css'; 
 import './assets/styles/Slider.css';
 import './assets/styles/Header.module.css';
 import './assets/styles/PromoSection.module.css';

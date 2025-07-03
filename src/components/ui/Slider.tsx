@@ -19,7 +19,7 @@ const Slider: React.FC = () => {
         className="slider-inner"
         style={{ backgroundImage: `url('${images[index]}')` }}
       ></div>
-      <div className="slider-dots" id="sliderDots">
+      <div className="slider-dots" id="slider-Dots">
         {images.map((_, i) => (
           <span
             key={i}

@@ -11,12 +11,12 @@ const CaptionSection: React.FC = () => {
 
         <div className="caption__title">
           <h2 className="caption__title__laed">
-            Creating an Online Presence is Hard. <br /> 
-            Jobly Makes it Easy for Recruiters to See you
+            Создание присутствия в Интернете — сложная задача. <br /> 
+            Джобли позволяет рекрутерам легко вас заметить
           </h2>
           <div className="caption__subtitle">
-            <h3 className="caption__subtitle__1">Zhao Cui</h3>
-            <p className="caption__subtitle__laed">Founder at Jobly.co</p>
+            <h3 className="caption__subtitle__1">Чжао Цуй</h3>
+            <p className="caption__subtitle__laed">Основатель Джобли.co</p>
           </div>
         </div>
       </div>

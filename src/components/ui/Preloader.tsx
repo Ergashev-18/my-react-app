@@ -7,7 +7,7 @@ const Preloader = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false)
-    }, 5000)
+    }, 3000)
 
     return () => clearTimeout(timer)
   }, [])
@@ -17,6 +17,7 @@ const Preloader = () => {
   return (
     <div className="preloader">
       <div className="spinner"></div>
+      <br/><p className="loading-text">Загрузка...</p>
     </div>
   )
 }

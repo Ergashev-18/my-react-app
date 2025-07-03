@@ -25,7 +25,8 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 .about__icon{
-    padding-left: 48px;
+    width: 300px;
+    padding-left: 37px;
 }
 .about__title {
     text-align: center;
