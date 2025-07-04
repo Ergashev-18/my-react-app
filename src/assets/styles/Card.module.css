@@ -1,0 +1,32 @@
+/* src/components/Card/Card.module.css */
+.about__item {
+  background-color: #fff;
+    border: 1px solid #e5e8eb;
+    border-radius: 55px;
+    padding: 0px;
+    width: calc(36% - 58px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.about__item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.about__icon {
+  width: 300px;
+  padding-left: 77px;
+}
+
+.about__title {
+  text-align: center;
+}
+
+.about__subtitle {
+  padding-left: 48px;
+  color: #707070;
+}

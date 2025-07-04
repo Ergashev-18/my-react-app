@@ -6,7 +6,7 @@ import AboutSection from './components/sections/AboutSection';
 import FeaturesSection from './components/sections/FeaturesSection';
 import CTASection from './components/sections/CTASection';
 import Preloader from './components/ui/Preloader';
-
+import CardList from './components/CardList/CardList';
 const App: React.FC = () => {
   return (
     <>
@@ -17,6 +17,7 @@ const App: React.FC = () => {
         <AboutSection />
         <FeaturesSection />
         <CTASection />
+        <CardList />
       </Layout>
       {/* <Modal /> */}
     </>
